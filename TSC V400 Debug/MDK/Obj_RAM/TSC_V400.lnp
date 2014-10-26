@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\obj_ram\main.o" ".\obj_ram\sys_config.o" ".\obj_ram\delay.o" ".\obj_ram\ex_var.o" ".\obj_ram\key_op.o" ".\obj_ram\led_op.o" ".\obj_ram\time_op.o" ".\obj_ram\usart_op.o" ".\obj_ram\e2prom_op.o" ".\obj_ram\ra8806_ctrl.o" ".\obj_ram\menu_resource.o" ".\obj_ram\at24c64_op.o" ".\obj_ram\stm32f10x_usart.o" ".\obj_ram\misc.o" ".\obj_ram\stm32f10x_bkp.o" ".\obj_ram\stm32f10x_exti.o" ".\obj_ram\stm32f10x_gpio.o" ".\obj_ram\stm32f10x_pwr.o" ".\obj_ram\stm32f10x_rcc.o" ".\obj_ram\stm32f10x_rtc.o" ".\obj_ram\stm32f10x_tim.o" ".\obj_ram\stm32f10x_i2c.o" ".\obj_ram\core_cm3.o" ".\obj_ram\system_stm32f10x.o" ".\obj_ram\stm32f10x_it.o" ".\obj_ram\startup_stm32f10x_hd.o" --library_type=microlib --strict --scatter ".\Obj_RAM\TSC_V400.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List_RAM\TSC_V400.map" -o ".\Obj_RAM\TSC_V400.axf"

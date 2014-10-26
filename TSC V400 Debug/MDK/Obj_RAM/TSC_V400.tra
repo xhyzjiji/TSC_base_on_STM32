@@ -1,0 +1,44 @@
+*** Creating Trace Output File '.\Obj_RAM\TSC_V400.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj_ram\main.o"'
+### List of Objects: adding '".\obj_ram\sys_config.o"'
+### List of Objects: adding '".\obj_ram\delay.o"'
+### List of Objects: adding '".\obj_ram\ex_var.o"'
+### List of Objects: adding '".\obj_ram\key_op.o"'
+### List of Objects: adding '".\obj_ram\led_op.o"'
+### List of Objects: adding '".\obj_ram\time_op.o"'
+### List of Objects: adding '".\obj_ram\usart_op.o"'
+### List of Objects: adding '".\obj_ram\e2prom_op.o"'
+### List of Objects: adding '".\obj_ram\ra8806_ctrl.o"'
+### List of Objects: adding '".\obj_ram\menu_resource.o"'
+### List of Objects: adding '".\obj_ram\at24c64_op.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_usart.o"'
+### List of Objects: adding '".\obj_ram\misc.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_bkp.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_exti.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_pwr.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_rtc.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_tim.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_i2c.o"'
+### List of Objects: adding '".\obj_ram\core_cm3.o"'
+### List of Objects: adding '".\obj_ram\system_stm32f10x.o"'
+### List of Objects: adding '".\obj_ram\stm32f10x_it.o"'
+### List of Objects: adding '".\obj_ram\startup_stm32f10x_hd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj_ram\main.o" ".\obj_ram\sys_config.o" ".\obj_ram\delay.o" ".\obj_ram\ex_var.o" ".\obj_ram\key_op.o" ".\obj_ram\led_op.o" ".\obj_ram\time_op.o" ".\obj_ram\usart_op.o" ".\obj_ram\e2prom_op.o" ".\obj_ram\ra8806_ctrl.o" ".\obj_ram\menu_resource.o" ".\obj_ram\at24c64_op.o" ".\obj_ram\stm32f10x_usart.o" ".\obj_ram\misc.o" ".\obj_ram\stm32f10x_bkp.o" ".\obj_ram\stm32f10x_exti.o" ".\obj_ram\stm32f10x_gpio.o" ".\obj_ram\stm32f10x_pwr.o" ".\obj_ram\stm32f10x_rcc.o" ".\obj_ram\stm32f10x_rtc.o" ".\obj_ram\stm32f10x_tim.o" ".\obj_ram\stm32f10x_i2c.o" ".\obj_ram\core_cm3.o" ".\obj_ram\system_stm32f10x.o" ".\obj_ram\stm32f10x_it.o" ".\obj_ram\startup_stm32f10x_hd.o" --library_type=microlib --strict --scatter ".\Obj_RAM\TSC_V400.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List_RAM\TSC_V400.map" -o ".\Obj_RAM\TSC_V400.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj_RAM\TSC_V400.axf'
+### ADS-LD Command File: '.\Obj_RAM\TSC_V400.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj_RAM\TSC_V400.lnp', Handle=0x000003A8
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj_RAM\TSC_V400.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

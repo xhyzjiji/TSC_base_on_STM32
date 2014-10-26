@@ -6,3 +6,7 @@
 *.plg
 List*/*
 Obj*/*
+*.o
+*.obj
+*.__i
+*.crf
