@@ -10,3 +10,4 @@ Obj*/*
 *.obj
 *.__i
 *.crf
+#end
