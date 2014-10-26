@@ -1,0 +1,8 @@
+#my stm32 projects
+*.d
+*.dep
+*.bak
+*.uvgui.Administrator
+*.plg
+List*/*
+Obj*/*
